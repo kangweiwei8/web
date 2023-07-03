@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>首页</title>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            html,body{
+                height: 100%;
+                width: 100%;
+                background-image: url("../myphoto/ba1.jpg");
+                background-size: 100% 90%;
+                background-repeat: no-repeat;
+            }
+            .firstp{
+                display: flex;
+                top: 0;
+                background-color: rgb(138,202,240);
+                height: 120px;
+                width: 100%;
+                position: fixed;   
+            }
+            .logo1{
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .arg span{
+                display: block;
+                color: #f1da91;
+                text-align: center;
+                height: 30%;
+                width: auto;
+                margin: 5px;
+                font-size: 4px;
+                
+            }
+            .arg p{
+                height: 110px;
+            }
+            .ul-top{
+                
+                list-style-type: none;
+                height: 120px;
+                display: flex;
+                width: 800px;
+                
+            }
+            .ul-top li{
+                width: 20%;
+            }
+            .ul-top a{
+                
+                color: white;
+                font-size: 22px;
+                display: block;
+                text-align: center;
+                padding: 50px 20px;
+                text-decoration: none;
+            }
+            .ul-top a:hover{
+                background-color: #7cb6d8;
+                box-shadow: 12px 12px 20px 1px #6ea2c0;
+                border-radius: 10%;
+                transition: 0.5s;
+            }
+            .secondp{
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top: 180px;
+                padding-bottom: 80px;
+                height: auto;
+                background-image: url("/ba1.jpg");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+            .secondp div.d1,.d2{
+                
+                margin-bottom: 30px;
+                box-shadow: 6px 6px 20px 0px #a0a5ab;
+                border-radius: 20px;
+                padding: 40px;
+                background-color: #f8f8f6;
+                
+            }
+            .d1{
+                margin-top: 120px;
+            }
+            .secondp span{
+                display: inline-block;
+                
+            }
+            .secondp p{
+                height: 76px;
+            }
+            .secondp span.s1{
+                width: 120px;
+                height: 100%;
+                
+            }
+            .secondp span.s1 img{
+                border-radius: 10px;
+            }
+            .secondp span.s2{
+                font-size: 30px;
+                height: 100%;
+                align-items: center;
+            }
+            .secondp div.s3{
+                font-size: 16px;
+                margin-top: 10px;
+            }
+            .secondp div.ps{
+                display: flex;
+                flex-wrap: wrap;
+                height: auto;
+            }
+            .secondp div.ps div{
+                box-shadow: 6px 6px 20px 0px #a0a5ab;
+                border-radius: 20px;
+                background-color: #f8f8f6;
+                width: 30%;
+                padding-top: 20px;
+                margin: 20px;
+                grid-column-start: 2;
+                grid-column-end: 4;
+                grid-row-start: 2;
+                grid-row-end: 3;
+                text-align: center;
+                font-size: 15px;
+            }
+            .secondp div.ps img{
+                border-radius: 10px;
+            }
+            .secondp div.ps h1{
+                margin: auto;
+                padding: 5px;
+                font-weight: normal;
+            }
+            .secondp div.ps p{
+                font-size: 15px;
+                height: auto;
+                padding: 20px;
+            }
+            .thirdp{
+                background-color: rgb(138,202,240);
+                height: 40px;
+                width: 100%;
+                position: fixed;
+                bottom: 0;
+               
+            }
+            .thirdp span{
+                display: block;
+                color: white;
+                text-align: right;
+                
+            }
+            button{
+                position: fixed;
+                z-index: 100;
+                color: #699dca;
+                background-color: #f8f8f6;
+                box-shadow: 3px 3px 20px 0px #a0a5ab;
+                border-radius: 10px;
+                bottom: 50px;
+                right: 10px;
+                width: 100px;
+                height: 40px;border: white;
+            }
+            button:hover{
+                background-color: #699dca;
+                color:white;
+                transition: 0.3s;
+            }
+            .current_date p{
+                color: #000;
+                background-color: #131212;
+                position: fixed;
+                z-index: 200;
+                
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="firstp">
+            <div class="logo1">
+                <img src="logo1.jpeg" width="80px" height="100px">
+            </div>
+            <div class="arg">
+                    <p>
+                        <span id="c1">Argentina National Football Team</span>
+                        <span id="c2">Selección Argentina de Fútbol</span>
+                        <span id="c3">阿根廷国家足球队</span>
+                    </p>
+            </div>
+            <div class="header-links">
+                <ul class="ul-top">
+                    <li><a href="./myhtml/index.html">首页</a></li>
+                    <li><a href="./team_information.html">国家队简介</a></li>
+                    <li><a href="./players.html">球员资料</a></li>
+                    <li><a href="./worldcup.html">2022世界杯</a></li>
+                    <li><a href="./report.html">结业报告</a></li>
+                </ul>
+            </div>
+            
+            
+        </div>
+        <div class="secondp">
+            <div class="d1">
+                <div>
+                    <span class="s1"><img src="R-C.png" width=100% height=100% ></span>
+                    <span class="s2">阿根廷</span>
+                </div>
+                <div class="s3">阿根廷全称阿根廷共和国，在西班牙语中，“阿根廷”与“拉普拉塔”两词意义相同，均为“白银”，其官方语种为西班牙语。阿根廷坐落于美丽富饶的南美洲南部,位于南纬23°至55°之间,东濒大西洋，西同智利以安第斯山脉为界，北部和东部与玻利维亚、巴拉圭、巴西、乌拉圭接壤。阿根廷有着丰富的文化、历史、自然景观和美食。最著名的旅游景点包括布宜诺斯艾利斯城市、冰川国家公园、伊瓜苏瀑布、安第斯山脉等。阿根廷足球水平居世界前列，也是南美洲的足球大国。</div>
+            </div>
+            <div class="d2">
+                <div>
+                    <span class="s1"><img src="R-C2.jpg" width=100% height=100%></span>
+                    <span class="s2">阿根廷足球文化</span>
+                </div>
+                <div class="s3">现代的阿根廷足球有着一百多年的历史，生活在潘帕斯草原的民族诞生出许多世界级的球员，在世界上的任何地方都能找到令人自豪的足球传说。尽管阿根廷在20世纪初就开始了世界杯之旅，但直到1978年作为世界杯的东道主赢得冠军以及86年的胜利，阿根廷才开始登上世界之颠，以其自由洒脱，如同探戈般的足球风格闻名世界足坛。阿根廷的足球文化饱受全球瞩目。足球被视为国家的象征和生活的一部分。阿根廷人热爱足球，他们擅长运球和传球，强调技术和个人能力。足球运动对阿根廷人来说是一种社交和娱乐方式，足球明星们受到广泛的崇拜。同时，足球也在政治和社会方面发挥着重要作用，例如在国际比赛中代表国家的荣誉感和归属感。</div>
+            </div>
+            <div class="ps">
+                <div class="p1"><img src="p1.jpg" width=90%><h1>首都布宜诺斯艾利斯</h1></div>
+                <div class="p2"><img src="p2.jpg" width=90%><h1>最宽瀑布——伊瓜苏瀑布</h1><p>被誉为“南美第一奇观”的伊瓜苏瀑布是南美洲最大的瀑布，也是世界五大名瀑之一。“伊瓜苏”在当地印第安人的瓜拉尼语中意为“大水”。伊瓜苏瀑布位于阿根廷北部和巴西交界,沿途汇集了大溪小流，穿过维多利亚山口，以雷霆万钧之势朝巴西和阿根廷交界的平原奔腾</p></div>
+                <div class="p3"><img src="p3.jpg" width=90%><h1>国茶——马黛茶</h1><p>马黛茶是阿根廷的一大特产，虽然这种茶并不仅仅是阿根廷才出产，但是仍然有人说，“不喝马黛茶就不算来到了阿根廷”。据阿根廷马黛茶国家研究学院统计数据表示，超过90% 的阿根廷家庭里长期饮用马黛茶</p></div>
+                <div class="p4"><img src="p4.jpg" width=90%><h1>舞中只王——探戈舞</h1></div>
+                <div class="p5"><img src="p5.jpg"  width=90% ><h1>2022卡塔尔世界杯夺冠</h1>潘帕斯雄鹰翱翔在卡塔尔半岛上空，Lionel Messi终捧起大力神杯，加冕“球王”</div>
+            </div>
+        </div>
+        <div class="thirdp">
+            <p>
+                <span>该网页为课程相关设计，如有雷同，纯属巧合</span>
+                <span>若有疑问请联系 电话：*********** 邮箱：**********@qq.com</span>
+            </p>
+        </div>
+        <button type="button" id="push1" onclick="location.href='./team_information.html'">国家队简介</button>
+    </body>
+</html>
